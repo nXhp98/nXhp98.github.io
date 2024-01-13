@@ -643,7 +643,7 @@
                 else if (btnId == 'btnkq2') { if (hlk < 10) { alert("幻灵卡不足"); return; } hlk -= 10; drawLottery(10, prizes2, nul); }
                 else if (btnText == '点击领取') {
                     var level = parseInt(btnId.match(/\d+(\.\d+)?/g)[0]) - 1;
-                    if (level + 1 <= 5) {//个人
+                    if (level <= 4) {//个人
                         if (L_b[level] == 1) { alert("已经领取过了"); return; }
                         if (hlz < Hl[level]) { alert("幻灵值不足"); return; }
                         drawLottery(1, prizesggs[level], PZX);
@@ -652,8 +652,8 @@
                     else {//团队
                         if (L_b[level] == 1) { alert("已经领取过了"); return; }
                         if (hlz < Hl[level]) { alert("个人幻灵值不足"); return; }
-                        if (hlzt < H2[level - 4]) { alert("团队幻灵值不足"); return; }
-                        drawLottery(1, prizesggs[level], PZX);
+                        if (hlzt < H2[level]) { alert("团队幻灵值不足"); return; }
+                        drawLottery(1, prizesggs[level-4], PZX);
                         L_b[level] = 1;
                     }
                 }
