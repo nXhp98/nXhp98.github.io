@@ -7,17 +7,17 @@ var pagesid = 1, totalPagesX = 1;//当前页 总页数
 
 
 
-function drawLottery(x, prizes, PZX) {//x-抽奖次数 prizes-奖品列表 PZX-暂存箱列表
+function drawLottery(x, prizesX, PZX) {//x-抽奖次数 prizes-奖品列表 PZX-暂存箱列表
 
-
+    const prizes = prizesX;
     // 定义一个空数组，用于存储抽中的物品
     const selectedItems = [];
 
-    // 计算所有奖品的总概率
-    const totalProbability = prizes.reduce((total, prize) => total + prize.probability, 0);
-
     // 循环抽奖次数
     for (let i = 0; i < x; i++) {
+        // 计算所有奖品的总概率
+        const totalProbability = prizes.reduce((total, prize) => total + prize.probability, 0);
+
         // 生成一个随机概率值
         const randomProbability = Math.random() * totalProbability;
 
@@ -40,6 +40,14 @@ function drawLottery(x, prizes, PZX) {//x-抽奖次数 prizes-奖品列表 PZX-�
         //进入暂存箱
         for (var j = 0; j < PZX.length; j++) {
             if (selectedItem == PZX[j]) {
+                //将上次抽中的物品概率下调30%
+                for (var k = 0; k < prizes.length; k++) {
+                    if (prizes[k].name == selectedItem) {
+                        //特判 避免重复抽到高价值道具
+                        if (prizes[k].probability <= 0.3) prizes[k].probability *= 0.3;
+                        else prizes[k].probability *= 0.8;
+                    }
+                }
                 addzc(selectedItem);
                 break;
             }
