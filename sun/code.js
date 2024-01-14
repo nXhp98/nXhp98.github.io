@@ -168,14 +168,14 @@ function showGiftContent(items, currentPage) {
         row.appendChild(decomposeItemCell);
 
         if (items_b[i] == 0) {
-            receiveItemCell.innerHTML = '<a href="javascript:fs(' + (i) + ');" style="color: white;">[发送]</a>';
-            decomposeItemCell.innerHTML = '<a href="javascript:fj(' + (i) + ');" style="color: white;">[分解]</a>';
+            receiveItemCell.innerHTML = '<a href="javascript:fs(' + (i) + ');" style="color: white;">发送</a>';
+            decomposeItemCell.innerHTML = '<a href="javascript:fj(' + (i) + ');" style="color: white;">分解</a>';
         } else if (items_b[i] == 1) {
-            receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[已发送]</a>';
-            decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[X]</a>';
+            receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">已发送</a>';
+            decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">X</a>';
         } else if (items_b[i] == 2) {
-            receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[X]</a>';
-            decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[已分解]</a>';
+            receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">X</a>';
+            decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">已分解</a>';
         }
 
         // 将行添加到tableContainer
