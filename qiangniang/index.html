@@ -3,22 +3,6 @@
 
 <head>
     <link rel="icon" href="https://daoju.qq.com/favicon.ico" type="image/x-icon">
-    <div class="overlay" id="overlay"></div>
-    <div class="popup" id="popup">
-        <!-- 弹窗内容 -->
-        <h3>抽中的物品：</h3>
-        <ul id="prizeList"></ul>
-        <button onclick="hidePopup();">关闭</button>
-        <h3>(仅供参考)</h3>
-    </div>
-    <div class="overlay" id="overlay1"></div>
-    <div class="popup" id="popup1">
-        <!-- 弹窗内容 -->
-        <h3>恭喜你获得：</h3>
-        <ul id="prizeList1"></ul>
-        <button onclick="hidePopup1();">关闭</button>
-        <h3>(仅供参考)</h3>
-    </div>
     <meta charset="UTF-8" />
     <meta content="all" name="robots">
     <meta content="Tencent-CP" name="author" />
@@ -632,9 +616,9 @@
                     decomposeItemCell.innerHTML = '<a href="javascript:fj(' + (i) + ');" style="color: white;">[分解]</a>';
                 } else if (items_b[i] == 1) {
                     receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[已发送]</a>';
-                    decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[分解]</a>';
+                    decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[X]</a>';
                 } else if (items_b[i] == 2) {
-                    receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[发送]</a>';
+                    receiveItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[X]</a>';
                     decomposeItemCell.innerHTML = '<a href="javascript:void();" style="color: white;">[已分解]</a>';
                 }
 
