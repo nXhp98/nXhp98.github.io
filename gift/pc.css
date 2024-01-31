@@ -1,0 +1,1840 @@
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%
+}
+
+em,
+b {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+img {
+    border: 0
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    outline: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th,
+ul,
+ol,
+li {
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    padding-top: 42px;
+    background-color: #f9f4e4;
+    z-index: 1000;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+    overflow-x: hidden;
+}
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.hide {
+    display: none;
+}
+
+i {
+    font-style: normal
+}
+
+/*footer*/
+#afooter {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #eee;
+    background-color: #150002;
+    padding: 20px 0;
+    min-width: 1200px;
+}
+
+#afooter a {
+    color: #eee;
+}
+
+.c:before,
+.c:after {
+    content: "";
+    display: table;
+}
+
+.c:after {
+    clear: both;
+}
+
+.c {
+    zoom: 1;
+}
+
+:focus {
+    outline: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body,
+#actTitleWrap,
+.blacktop-wrap,
+.wrap1,
+.wrap2,
+#footer_ied {
+    min-width: 1200px !important;
+    width: 100% !important;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?'1200px':'') !important;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.hide {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.db {
+    display: block;
+    text-indent: -9999em;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.last {
+    margin-right: 0 !important;
+}
+
+a {
+    transition: filter .3s;
+}
+
+/*a:hover{filter: brightness(1.1);}*/
+.sp {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/sp.png) no-repeat;
+}
+
+@font-face {
+    font-family: "rui";
+    src: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/font.ttf);
+}
+
+.wrap {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/rp.jpg) no-repeat 50% 0;
+    position: relative;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+.head {
+    height: 1130px;
+    position: relative;
+}
+
+.login_box {
+    width: 100%;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    top: 950px;
+}
+
+.login_box a {
+    color: #ffffff;
+}
+
+.logo1 {
+    background-position: -705px -1343px;
+    width: 185px;
+    height: 41px;
+    position: absolute;
+    left: -306px;
+    top: 54px;
+}
+
+.logo2 {
+    background-position: -905px -1332px;
+    width: 169px;
+    height: 55px;
+    position: absolute;
+    left: -105px;
+    top: 42px;
+}
+
+/*part1*/
+.part1 {
+    height: 1594px;
+    position: relative;
+}
+
+.btn_box1 {
+    width: 1182px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.btn_mg1 {
+    background-position: -1px -1217px;
+    width: 390px;
+    height: 104px;
+}
+
+.btn_mg2 {
+    background-position: -397px -1217px;
+    width: 390px;
+    height: 104px;
+}
+
+.btn_mg3 {
+    background-position: -792px -1217px;
+    width: 391px;
+    height: 104px;
+}
+
+.txt1 {
+    width: 390px;
+    font-size: 18px;
+    color: #7b3907;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 798px;
+}
+
+.btn_dj1 {
+    font-size: 24px;
+    color: #79531e;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: underline;
+    display: block;
+    margin: 12px 0 0 1068px;
+}
+
+.lotty {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/lotty.png) no-repeat;
+    width: 1211px;
+    height: 1012px;
+    margin: 16px 0 0 -5px;
+    position: relative;
+}
+
+.txt_box1 {
+    width: 543px;
+    position: absolute;
+    left: 328px;
+    top: 592px;
+    font-size: 26px;
+    color: #79531e;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_box1 p span {
+    color: #c50000;
+}
+
+.btn_cj1 {
+    width: 327px;
+    height: 78px;
+    position: absolute;
+    left: 252px;
+    top: 652px;
+}
+
+.btn_cj2 {
+    width: 327px;
+    height: 78px;
+    position: absolute;
+    left: 626px;
+    top: 652px;
+}
+
+.box1 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/boxbg1.png) no-repeat;
+    width: 1200px;
+    height: 228px;
+    margin: 102px auto 0;
+    position: relative;
+    padding: 57px 71px 0 635px;
+    box-sizing: border-box;
+}
+
+.btn_zc1 {
+    background-position: -466px -1333px;
+    width: 212px;
+    height: 51px;
+    position: absolute;
+    left: 306px;
+    top: 64px;
+}
+
+.txt2 {
+    font-size: 16px;
+    color: #fffdef;
+    text-align: center;
+    line-height: 22px;
+    width: 280px;
+    position: absolute;
+    left: 266px;
+    top: 128px;
+}
+
+.box1ct1 {
+    width: 100%;
+}
+
+.box1ct1 li p {
+    font-size: 16px;
+    color: #fffdef;
+    text-align: center;
+    line-height: 24px;
+}
+
+/*part2*/
+.part2 {
+    height: 1446px;
+    position: relative;
+}
+
+.tit1 {
+    background-position: -1px -1917px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.box3 {
+    width: 1200px;
+    margin: -10px auto 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 li:nth-child(1) {
+    width: 430px;
+}
+
+.box3 li:nth-child(2) {
+    width: 404px;
+}
+
+.box3 li:nth-child(3) {
+    width: 352px;
+}
+
+.btn_gm1 {
+    background-position: -1px -1511px;
+    width: 430px;
+    height: 104px;
+    display: block;
+    margin: 78px auto 0;
+}
+
+.btn_gm1.cur {
+    background-position: -6px -2269px;
+}
+
+.txt4 {
+    font-size: 18px;
+    color: #7b3907;
+    text-align: center;
+    line-height: 24px;
+}
+
+.txt7 {
+    font-size: 21px;
+    color: #7e4a2e;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 92px;
+}
+
+.txt16 {
+    font-size: 18px;
+    color: #7e4a2e;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+.txt5 {
+    width: 352px;
+    display: flex;
+    justify-content: center;
+}
+
+.txt5 span {
+    font-size: 18px;
+    color: #7e4a2e;
+    text-align: center;
+    line-height: 38px;
+}
+
+.txt5 input {
+    width: 232px;
+    font-size: 18px;
+    color: #d62c04;
+    text-align: center;
+    line-height: 38px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.txt5 input::-webkit-input-placeholder {
+    color: #d62c04;
+}
+
+.inptyqm {
+    width: 352px;
+    height: 30px;
+    border: 1px solid #ffe87f;
+    background-color: #7d553d;
+    display: block;
+    margin: 0 auto 8px;
+    font-size: 16px;
+    color: #cca994;
+    text-align: center;
+    line-height: 30px;
+}
+
+.inptyqm::-webkit-input-placeholder {
+    color: #cca994;
+}
+
+.btn_copy {
+    background-position: -24px -1402px;
+    width: 352px;
+    height: 95px;
+    display: block;
+}
+
+.txt6 {
+    width: 352px;
+    font-size: 17px;
+    color: #7e4a2e;
+    text-align: center;
+    line-height: 36px;
+}
+
+.box4 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/boxbg2.png) no-repeat;
+    width: 1202px;
+    height: 244px;
+    margin: 10px auto 0;
+    padding-top: 83px;
+    box-sizing: border-box;
+}
+
+.table_bor1 {
+    width: 1096px;
+    margin-left: 27px;
+    text-align: center;
+}
+
+.table_bor1 th {
+    font-size: 32px;
+    color: #721101;
+    height: 62px;
+    line-height: 62px;
+}
+
+.table_bor1 td {
+    height: 62px;
+    line-height: 62px;
+    font-size: 22px;
+    color: #793c05;
+}
+
+.btn_ck1 {
+    background-position: -425px -1401px;
+    width: 452px;
+    height: 95px;
+    display: block;
+    margin: 18px auto 0;
+}
+
+.tit2 {
+    background-position: -2px -2096px;
+    width: 1170px;
+    height: 154px;
+    margin: 72px auto 0;
+}
+
+.txt3 {
+    width: 380px;
+    font-size: 26px;
+    color: #79531e;
+    text-align: right;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    top: 930px;
+}
+
+.txt3 span {
+    color: #ce3607;
+}
+
+.icon_1 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1.png) no-repeat;
+    width: 1199px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 1024px;
+}
+
+.icon_1.cur1 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_1.png) no-repeat;
+}
+
+.icon_1.cur2 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_2.png) no-repeat;
+}
+
+.icon_1.cur3 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_3.png) no-repeat;
+}
+
+.icon_1.cur4 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_4.png) no-repeat;
+}
+
+.icon_1.cur5 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_5.png) no-repeat;
+}
+
+.icon_1.cur6 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/txt1_6.png) no-repeat;
+}
+
+.box2 {
+    width: 1200px;
+    margin: 32px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 li p {
+    font-size: 18px;
+    color: #7d5321;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box2 li p span {
+    font-size: 32px;
+    color: #ef2d13;
+    font-weight: bold;
+}
+
+.box2 li img {
+    display: block;
+    margin: 79px auto 0;
+}
+
+.box2 li a {
+    background-position: -900px -1404px;
+    width: 192px;
+    height: 51px;
+    font-size: 24px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin: 14px auto 0;
+    font-family: "rui";
+}
+
+.box2 li a.gray {
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+/*part3*/
+.part3 {
+    height: 848px;
+    position: relative;
+}
+
+.tit3 {
+    background-position: 0 -178px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto 17px;
+}
+
+.txt8 {
+    font-size: 18px;
+    color: #784b0b;
+    text-align: left;
+    line-height: 24px;
+}
+
+.box5 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/boxbg3.png) no-repeat;
+    width: 1202px;
+    height: 405px;
+    margin: 19px auto 0;
+    position: relative;
+}
+
+.txt9 {
+    width: 100%;
+    font-size: 18px;
+    color: #fff6ca;
+    text-align: center;
+    line-height: 36px;
+}
+
+.btn_zq1 {
+    background-position: -454px -1512px;
+    width: 330px;
+    height: 53px;
+    font-size: 20px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 52px;
+    font-family: "rui";
+    position: absolute;
+    left: 254px;
+    top: 270px;
+}
+
+.box5 a.gray {
+    filter: grayscale(100%);
+}
+
+.btn_zq2 {
+    background-position: -454px -1512px;
+    width: 330px;
+    height: 53px;
+    font-size: 20px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 52px;
+    font-family: "rui";
+    position: absolute;
+    left: 614px;
+    top: 270px;
+}
+
+.btn_zq3 {
+    background-position: -806px -1513px;
+    width: 350px;
+    height: 53px;
+    font-size: 20px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 52px;
+    font-family: "rui";
+    position: absolute;
+    left: 247px;
+    top: 335px;
+}
+
+.btn_zq4 {
+    background-position: -806px -1513px;
+    width: 350px;
+    height: 53px;
+    font-size: 20px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 52px;
+    font-family: "rui";
+    position: absolute;
+    left: 604px;
+    top: 335px;
+}
+
+.btn_ck2 {
+    font-size: 20px;
+    color: #82520e;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: underline;
+}
+
+.txt10 {
+    width: 874px;
+    font-size: 20px;
+    color: #82520e;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 692px;
+    left: 327px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt10 span {
+    color: #d31a01;
+}
+
+.btn_gs {
+    font-size: 20px;
+    color: #82520e;
+    text-align: center;
+    line-height: 32px;
+    display: block;
+    text-decoration: underline;
+    width: 200px;
+    margin-left: 56px;
+}
+
+/*part4*/
+.part4 {
+    height: 900px;
+    position: relative;
+}
+
+.tit4 {
+    background-position: 0 -348px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.txt11 {
+    width: 100%;
+    font-size: 26px;
+    color: #784b0b;
+    text-align: right;
+    line-height: 36px;
+    padding-right: 54px;
+    box-sizing: border-box;
+}
+
+.txt11 span {
+    color: #784b0b;
+}
+
+.box6 {
+    width: 1068px;
+    margin: 27px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt12 {
+    font-size: 20px;
+    color: #784b0b;
+    text-align: center;
+    line-height: 32px;
+}
+
+.box6 li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.txt13 {
+    font-size: 20px;
+    color: #784b0b;
+    text-align: center;
+    line-height: 40px;
+}
+
+.box6 li a {
+    background-position: -455px -1576px;
+    width: 242px;
+    height: 55px;
+    font-size: 26px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 54px;
+    font-family: "rui";
+    display: block;
+    margin-bottom: 4px;
+}
+
+.box6 li a.gray {
+    filter: grayscale(100%);
+}
+
+/*part5*/
+.part5 {
+    height: 1625px;
+    position: relative;
+}
+
+.tit5 {
+    background-position: -3px -524px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.txt_box2 {
+    width: 1165px;
+    font-size: 26px;
+    color: #79531e;
+    text-align: center;
+    line-height: 38px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_box2 span {
+    color: #ce3607;
+}
+
+.box7 {
+    width: 1212px;
+    margin: 28px auto 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box7 li {
+    margin: 0 5px 20px;
+}
+
+.box7 li img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.box7 li a {
+    background-position: -729px -1577px;
+    width: 231px;
+    height: 59px;
+    font-size: 20px;
+    color: #8f4f27;
+    text-align: center;
+    line-height: 58px;
+    font-family: "rui";
+    display: block;
+    margin-bottom: 6px;
+}
+
+.box7 li a.gray {
+    filter: grayscale(100%);
+}
+
+
+/*part6*/
+.part6 {
+    height: 562px;
+}
+
+.tit6 {
+    background-position: -2px -696px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.txt14 {
+    font-size: 26px;
+    color: #ffed9f;
+    text-align: center;
+    line-height: 34px;
+    margin: 16px auto 0;
+    font-family: "rui";
+}
+
+.txt15 {
+    font-size: 20px;
+    color: #fff6e4;
+    text-align: center;
+    line-height: 48px;
+}
+
+.btn_box2 {
+    width: 1018px;
+    margin: 34px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_tx1 {
+    background-position: -1px -1654px;
+    width: 471px;
+    height: 113px;
+    font-size: 54px;
+    color: #922401;
+    text-align: center;
+    line-height: 112px;
+    font-family: "rui";
+}
+
+.btn_tx2 {
+    background-position: -488px -1655px;
+    width: 471px;
+    height: 113px;
+    font-size: 54px;
+    color: #922401;
+    text-align: center;
+    line-height: 57px;
+    font-family: "rui";
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+
+.btn_tx2 span {
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    margin: 0 auto;
+    font-family: nina;
+}
+
+.btn_tx2.gray {
+    filter: grayscale(100%);
+}
+
+/*part7*/
+.part7 {
+    height: 970px;
+}
+
+.tit7 {
+    background-position: -1px -868px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.img_1 {
+    display: block;
+    margin: 24px auto 0;
+}
+
+.btn_c1 {
+    background-position: -5px -1786px;
+    width: 471px;
+    height: 113px;
+    display: block;
+    margin: 36px auto 0;
+}
+
+/*part8*/
+.part8 {
+    height: auto;
+}
+
+.tit8 {
+    background-position: -2px -1045px;
+    width: 1170px;
+    height: 154px;
+    margin: 0 auto;
+}
+
+.rule {
+    width: 1200px;
+    margin: 54px auto 0;
+    font-size: 20px;
+    color: #fff9e9;
+}
+
+.rule dd {
+    margin-bottom: 18px;
+}
+
+.rule dd em {
+    background-position: -975px -1577px;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 8px;
+}
+
+.rule dd p {
+    float: left;
+    width: 1140px;
+    text-align: left;
+    line-height: 27px;
+}
+
+.rule a {
+    color: #fff95c;
+    text-decoration: none;
+}
+
+.fc {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc.png) no-repeat;
+    width: 280px;
+    height: 389px;
+    position: fixed;
+    top: 28%;
+    right: 10px;
+}
+
+.btn_gb {
+    width: 38px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn_lx {
+    width: 254px;
+    height: 346px;
+    position: absolute;
+    left: 0;
+    top: 44px;
+}
+
+
+/* 弹窗 */
+.pop {
+    display: none;
+    position: relative;
+}
+
+.close_btn {
+    background-position: -1074px -1579px;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: -26px;
+    right: -6px;
+}
+
+.pop1 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc1.png) no-repeat;
+    width: 830px;
+    height: 780px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.fc_box1 {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fctable_bor1 {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffe5c5;
+}
+
+.fctable_bor1 th {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 36px;
+    background-color: #6f370a;
+    border: 1px solid #e7cdaf;
+}
+
+.fctable_bor1 td {
+    font-size: 18px;
+    color: #000000;
+    line-height: 32px;
+    border: 1px solid #e7cdaf;
+    height: 32px;
+}
+
+.fctable_bor1 a {
+    color: #000000;
+}
+
+.pop2 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc2.png) no-repeat;
+    width: 713px;
+    height: 644px;
+    padding-top: 88px;
+    box-sizing: border-box;
+}
+
+.fc_box2 {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fc_box2ct1 {
+    width: 370px;
+    height: 416px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.table_bor2 {
+    width: 370px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table_bor2 th {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 70px;
+    background-color: #6f370a;
+    border: 1px solid #e7cdaf;
+}
+
+.table_bor2 td {
+    font-size: 18px;
+    color: #000000;
+    line-height: 36px;
+    border: 1px solid #e7cdaf;
+    height: 36px;
+    background-color: #ffe5c5;
+}
+
+.table_bor2 a {
+    color: #000000;
+}
+
+.fc_box2ct2 {
+    width: 264px;
+    height: 416px;
+    background-color: #ffe5c5;
+}
+
+.fc_txt1 {
+    font-size: 20px;
+    color: #f9f9f9;
+    line-height: 34px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6f370a;
+}
+
+.fc_txt1 span {
+    margin: 0 10px;
+}
+
+.fc_box2ct2polc {
+    width: 264px;
+    height: 374px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.fc_box2ct2polc li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fc_box2ct2polc li p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    width: 132px;
+    text-align: center;
+}
+
+.fc_txt2 {
+    width: 654px;
+    margin: 8px auto 0;
+    font-size: 20px;
+    color: #692f00;
+    line-height: 26px;
+    text-align: center;
+}
+
+.pop3 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc3.png) no-repeat;
+    width: 713px;
+    height: 594px;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+
+.pop4 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc4.png) no-repeat;
+    width: 543px;
+    height: 724px;
+    padding-top: 106px;
+    box-sizing: border-box;
+}
+
+.fc_txt3 {
+    font-size: 20px;
+    color: #fffffe;
+    line-height: 24px;
+    text-align: center;
+}
+
+.fc_box3 {
+    width: 450px;
+    height: 380px;
+    margin: 18px auto 0;
+    background-color: #ffe5c5;
+}
+
+.fc_box3 li {
+    border-bottom: 1px solid #f3d8b9;
+    height: 37px;
+}
+
+.fc_box3 li p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 37px;
+    text-align: center;
+}
+
+.fc_txt4 {
+    width: 450px;
+    font-size: 20px;
+    color: #692f00;
+    line-height: 24px;
+    text-align: center;
+    margin: 22px auto 0;
+}
+
+.pop5 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc5.png) no-repeat;
+    width: 543px;
+    height: 394px;
+    padding-top: 114px;
+    box-sizing: border-box;
+}
+
+.fc_box4 {
+    width: 450px;
+    height: 44px;
+    margin: 18px auto 0;
+    background-color: #ffe5c5;
+}
+
+.fc_box4 p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 44px;
+    text-align: center;
+}
+
+.pop6 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc6.png) no-repeat;
+    width: 713px;
+    height: 963px;
+}
+
+.pop7 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc7.png) no-repeat;
+    width: 573px;
+    height: 235px;
+    padding-top: 54px;
+    box-sizing: border-box;
+}
+
+.fc_txt6 {
+    width: 465px;
+    height: 140px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 28px;
+    text-align: center;
+    display: table;
+}
+
+.fc_txt6 span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pop8 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc8.png) no-repeat;
+    width: 713px;
+    height: 684px;
+    padding-top: 94px;
+    box-sizing: border-box;
+}
+
+.fc_box6 {
+    width: 670px;
+    margin: 0 auto;
+    height: 460px;
+    overflow-y: auto;
+}
+
+.fc_box6::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+
+.fc_box6::-webkit-scrollbar-track {
+    background-color: #ac7544;
+}
+
+/*滚动背景颜色*/
+.fc_box6::-webkit-scrollbar-thumb {
+    background-color: #fffbcb;
+    border-radius: 10px;
+}
+
+/*滚动条颜色*/
+.fc_txt7 {
+    font-size: 18px;
+    color: #fffffd;
+    line-height: 33px;
+    text-align: left;
+}
+
+.fc_txt7 em {
+    background-position: -1028px -1579px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fc_jd1 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/jd1.png) no-repeat;
+    width: 476px;
+    height: 16px;
+    margin: 8px auto 0;
+    position: relative;
+}
+
+.fc_jd1 em {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/jd2.png) no-repeat;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fc_box6ct1 {
+    width: 420px;
+    margin: 7px 0 0 126px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fc_box6ct1 li a {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz1.png) no-repeat;
+    width: 24px;
+    height: 22px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fc_box6ct1 li a.cur {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz2.png) no-repeat;
+}
+
+.fc_box6ct1 li p {
+    font-size: 16px;
+    color: #fffffd;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fc_box6ct2 {
+    width: 157px;
+    margin: 7px 0 0 126px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fc_box6ct2 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fc_box6ct2 li a {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz1.png) no-repeat;
+    width: 24px;
+    height: 22px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fc_box6ct2 li a.cur {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz2.png) no-repeat;
+}
+
+.fc_box6ct2 li p {
+    font-size: 16px;
+    color: #fffffd;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fc_box6ct3 {
+    width: 600px;
+    height: 126px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fc_box6ct3po1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fc_box6ct3po1 a {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz1.png) no-repeat;
+    width: 24px;
+    height: 22px;
+}
+
+.fc_box6ct3po1 a.cur {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/xz2.png) no-repeat;
+}
+
+.fc_box6ct3po1 p {
+    font-size: 14px;
+    color: #471301;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fc_box6ct3po1_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fc_box6ct3po1_2 {
+    position: absolute;
+    top: 0;
+    left: 220px;
+}
+
+.fc_box6ct3po1_3 {
+    position: absolute;
+    top: 0;
+    left: 362px;
+}
+
+.fc_box6ct3po1_4 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.fc_box6ct3po1_5 {
+    position: absolute;
+    top: 32px;
+    left: 220px;
+}
+
+.fc_box6ct3po1_6 {
+    position: absolute;
+    top: 32px;
+    left: 362px;
+}
+
+.fc_box6ct3po1_7 {
+    position: absolute;
+    top: 67px;
+    left: 0;
+}
+
+.fc_box6ct3po1_8 {
+    position: absolute;
+    top: 67px;
+    left: 220px;
+}
+
+.fc_box6ct3po1_9 {
+    position: absolute;
+    top: 67px;
+    left: 362px;
+}
+
+.fc_box6ct3po1_10 {
+    position: absolute;
+    top: 101px;
+    left: 0;
+}
+
+.fc_box6ct3po1_11 {
+    position: absolute;
+    top: 101px;
+    left: 239px;
+}
+
+.fc_txt8 {
+    font-size: 18px;
+    color: #ece8ff;
+    line-height: 39px;
+    text-align: left;
+}
+
+.fc_txt8 em {
+    background-position: -1028px -1579px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fc_in1 {
+    width: 308px;
+    height: 20px;
+    border: 1px solid #654129;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #ffefd3;
+    line-height: 20px;
+    text-align: center;
+}
+
+.fc_in2 {
+    width: 584px;
+    height: 120px;
+    border: 1px solid #654129;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    color: #ffefd3;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.fc_btnt1 {
+    background-position: -510px -1787px;
+    width: 315px;
+    height: 72px;
+    display: block;
+    margin: 6px auto 0;
+}
+
+.pop9 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc9.png) no-repeat;
+    width: 713px;
+    height: 524px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.pop10 {
+    background: url(//game.gtimg.cn/images/actdaoju/act/a20240115gift/fc10.png) no-repeat;
+    width: 543px;
+    height: 724px;
+    padding-top: 112px;
+    box-sizing: border-box;
+}
+
+.fc_boxg2 {
+    width: 508px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fctable_borg1 {
+    width: 508px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fctable_borg1 th {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 34px;
+}
+
+.fctable_borg1 td {
+    font-size: 18px;
+    color: #692f00;
+    line-height: 28px;
+    height: 28px;
+}
+
+.fctable_borg1 td a {
+    color: #000000;
+}
+
+.btn_sp1 {
+    background-position: -1025px -1663px;
+    width: 109px;
+    height: 98px;
+    position: absolute;
+    left: 1104px;
+    top: 268px;
+    animation: btnvid 2.2s linear infinite;
+}
+
+@keyframes btnvid {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pop_video {
+    width: 700px;
+    height: 400px;
+}
+
+.video_cn {
+    width: 100%;
+    height: 100%;
+}
+
+/*开发 start*/
+
+.milo-lotteryRecordContainer ul {
+    width: 93%;
+    color: #f6b268;
+    font-weight: 500;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 23px;
+    height: 40px;
+}
+
+.milo-lotteryRecordContainer ul li {
+    padding: 5px 0;
+    min-width: 0;
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: center;
+    /*border: 1px solid #896f46;*/
+    border-top: none;
+}
+
+
+.milo-paginator {
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    padding: 5px 5px 10px 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.milo-paginator .my-page-prev,
+.milo-paginator .my-page-next {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer
+}
+
+.milo-paginator .my-page-prev:hover,
+.milo-paginator .my-page-next:hover {
+    color: #409eff;
+}
+
+.milo-paginator .my-page-group {
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.milo-paginator .my-page-group li {
+    float: left;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 30px;
+    padding: 0 8px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer
+}
+
+.milo-paginator .my-page-forbid {
+    pointer-events: none;
+    background-color: #f4f4f5;
+    color: rgba(0, 0, 0, .2)
+}
+
+.milo-paginator .my-page-cell {
+    border: 1px solid #ddd;
+    border-radius: 2px
+}
+
+.milo-paginator .my-page-checked {
+    background-color: #409eff;
+    color: #fff;
+}
+
+.milo-paginator.my-page-omit {
+    pointer-events: none
+}
+
+.lotteryRecordContainer {
+    background-color: #fff;
+
+}
+
+.milo-lotteryRecordContainer-line {
+    /*height: 70px;*/
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #896f46;
+}
+
+.milo-lotteryRecordContainer-head {
+    padding-top: 45px;
+}
+
+
+#milo-broadcast {
+    height: 150px;
+    overflow: hidden;
+}
+
+#milo-broadcast ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+#milo-broadcast ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#milo-broadcast ul li div {
+    float: left;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+#milo-broadcast ul li div:nth-child(1) {
+    width: 30% !important;
+}
+
+#milo-broadcast ul li div:nth-child(2) {
+    width: 70% !important;
+}
+
+
+#showMyGiftContent2 .fc_box2ct1 {
+    height: 456px;
+}
+
+#showMyGiftContent2 .fc_box2ct2 {
+    height: 436px;
+}
+
+#showMyGiftContent2 .fc_txt2 {
+    margin: 30px auto 0;
+}
+
+/*开发 end*/
