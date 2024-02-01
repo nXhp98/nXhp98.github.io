@@ -122,7 +122,7 @@
                 </div>
                 <div class="part3">
                     <h2 class="tit3 sp db">传说兑换</h2>
-                    <p class="txt8">说明：模拟器幸运签中签概率为4% 每次未中签概率增加4%(非官方概率 仅供娱乐)</p>
+                    <p class="txt8">说明：模拟器幸运签中签概率为3% 每次未中签概率增加3%(非官方概率 仅供娱乐)</p>
                     <p class="txt8" id="K1">1、每累计获得x张祥龙卡（包含从其他卡兑换的祥龙卡），将自动获得一张【传说灵眸 无序列号版】幸运签</p>
                     <p class="txt8">2、每日18:00刷新中签状态，未中签的签码在活动期间内均有机会中签，每日【传说灵眸 无序列号版】幸运签1万张</p>
                     <p class="txt8" id="K2">3、累积幸运签数达20张，可消耗剩余幸运签以及对应卡片进行兑换（单Q限1）</p>
@@ -142,8 +142,8 @@
                     <div class="txt10">
                         <p>剩余祥龙卡：<span class="xlk">0</span></p>
                         <p>剩余传说卡：<span class="csk" id="csk">0</span></p>
-                        <p>剩余未中签幸运签数量：<span class="_ret_luck_num">0</span></p>
-                        <p>剩余已中签幸运签数量：<span class="_ret_hasluck_num">0</span></p>
+                        <p>剩余已中签幸运签数量：<span class="_ret_luck_num">0</span></p>
+                        <p>剩余未中签幸运签数量：<span class="_ret_hasluck_num">0</span></p>
                     </div>
                 </div>
                 <div class="part4">
@@ -1092,14 +1092,13 @@
             updateAllCards();
             if (allxlk >= XLK_cnt * K) {
                 let rd = Math.random();
-                if (rd <= 0.04 * zq_cnt) {
+                if (rd <= 0.03 * zq_cnt) {
                     alert("恭喜你中签");
                     ++zq;
                     zq_cnt = 1;
                 } else {
-                    alert("很遗憾，你没有中签");
+                    alert("很遗憾，你没有中签，下次中签概率为【" + (3 * ++zq_cnt) + "%】");
                     ++wzq;
-                    zq_cnt++;
                 }
                 XLK_cnt++;
             }
