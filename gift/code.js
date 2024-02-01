@@ -10,27 +10,27 @@ var cards = {
     "新春福": 0
 };
 var txn = ['NULL', "传说卡", "王者卡", "英雄卡", "道具卡"];
-var toxlk = [0, 1, 10, 2, 20, 3, 30, 4, 40];//兑换祥龙卡--待更新
+var toxlk = [0, 30, 300, 3, 30, 2, 20, 1, 10];//兑换祥龙卡
 var itemsX = [];
 const items_b = [0];//看是否发送或分解 0无 1发送 2分解
 var pagesid = 1, totalPagesX = 1;//当前页 总页数
 var allxlk = 0, XLK_cnt = 1, zq_cnt = 1;//总祥龙卡 中签次数 未中签次数
-var xcflist = [0, 1, 2, 3, 4, 5, 6];//累计获得新春福星--待更新
+var xcflist = [0, 1, 3, 6, 10, 15, 20];//累计获得新春福星
 var xcfpz = ['NULL', '5000', '10000', '15000', '30000', '60000', '120000'];//新春福星奖励
 
 const sitem = [
-    ['传说灵眸 无序列号版', 1],
-    ['非觉醒版 王者芳薇', 1],
-    ['M14EBR-玄武', 1],
-    ['王者潘多拉', 1],
-    ['觉醒版 炼狱-悦蓝', 1],
-    ['裁决-流光秘银皮肤', 1],
-    ['AN94-超新星', 1],
-    ['M4A1-龙血', 1],
-    ['蓝色艾比玩偶 （不可交易）', 1],
+    ['传说灵眸 无序列号版', 50],
+    ['非觉醒版 王者芳薇', 15],
+    ['M14EBR-玄武', 15],
+    ['王者潘多拉', 10],
+    ['觉醒版 炼狱-悦蓝', 10],
+    ['裁决-流光秘银皮肤', 6],
+    ['AN94-超新星', 4],
+    ['M4A1-龙血', 3],
+    ['蓝色艾比玩偶 （不可交易）', 2],
     ['猫耳头盔', 1],
     ['属性抽取券', 1]
-];//分解钥匙--待更新
+];//分解钥匙
 function updateAllCards() {
 
     updateDisplay_class("xlk", cards["祥龙卡"]);
@@ -81,7 +81,7 @@ function drawLottery(x, prizesX, PZX) {//x-抽奖次数 prizes-奖品列表 PZX-
                 for (var k = 0; k < prizes.length; k++) {
                     if (prizes[k].name == selectedItem) {
                         //特判 避免重复抽到高价值道具
-                        if (prizes[k].probability <= 0.3) prizes[k].probability *= 0.3;
+                        if (prizes[k].probability <= 0.5) prizes[k].probability *= 0.3;
                         else prizes[k].probability *= 0.8;
                     }
                 }
