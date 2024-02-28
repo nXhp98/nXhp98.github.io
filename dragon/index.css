@@ -1,0 +1,1946 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	padding-top: 42px !important;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+q:before,
+q:after {
+	content: "";
+}
+
+fieldset,
+img,
+abbr,
+acronym {
+	border: 0;
+}
+
+.c:before,
+.c:after {
+	content: "";
+	display: table;
+}
+
+.c:after {
+	clear: both;
+}
+
+.c {
+	zoom: 1;
+}
+
+body {
+	padding-top: 42px;
+	text-align: justify;
+	background-color: #d06440;
+	overflow-x: hidden;
+}
+
+:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap,
+.wrap1,
+#footer_ied {
+	min-width: 1200px;
+	width: 100%;
+	_width: expression( (document.documentElement.clientWidth||document.body.clientWidth) <1202? "1200px":"");
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+
+.hide {
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.db {
+	display: block;
+	text-indent: -999em;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+/*footer*/
+
+#afooter {
+	text-align: center;
+	line-height: 20px;
+	color: #908f91;
+	background-color: #000;
+	padding: 20px 0;
+}
+
+#afooter a {
+	color: #908f91;
+}
+
+
+/*  */
+
+.gray {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	pointer-events: none
+}
+
+@font-face {
+	font-family: 'font';
+	src: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/font.ttf);
+}
+
+.sp {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/sp.png) no-repeat;
+}
+
+.wrap {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/head.jpg) no-repeat 50% 0;
+}
+
+.wrap1 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bg.jpg) no-repeat 50% 0;
+	padding: 0 0 50px;
+}
+
+.head {
+	height: 1149px;
+	position: relative;
+}
+
+.boxlogina {
+	font-size: 22px;
+	color: #f3ce68;
+	line-height: 1;
+	position: absolute;
+	left: 0;
+	top: 1107px;
+	width: 100%;
+	text-align: center;
+}
+
+.boxlogina a {
+	color: #f3ce68;
+}
+
+.logocf {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/logo1.png) no-repeat;
+	width: 247px;
+	height: 56px;
+	position: absolute;
+	top: 51px;
+	left: -311px;
+}
+
+.logodjc {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/logo2.png) no-repeat;
+	width: 301px;
+	height: 56px;
+	position: absolute;
+	top: 51px;
+	left: -10px;
+}
+
+
+/*新春幸运抽*/
+
+.box3 {}
+
+.tit3 {
+	background-position: -274px -34px;
+	width: 607px;
+	height: 165px;
+	margin: 0 auto;
+}
+
+.bxbtns0110 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 76px;
+}
+
+.bxbtns0110 a {
+	display: block;
+	position: relative;
+	width: 372px;
+	height: 96px;
+	margin: 0 18px;
+}
+
+.btnbuy4 {
+	background-position: -294px -1535px;
+}
+
+.btnbuy5 {
+	background-position: -703px -1535px;
+}
+
+.bxbtns0110 a span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	line-height: 1;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.textbtn1 {
+	left: 0;
+	top: -48px;
+}
+
+.textbtn2 {
+	left: 0;
+	top: 103px;
+}
+
+.btnbuy4.on {
+	background-position: -324px -2116px;
+}
+
+.btnbuy5.on {
+	background-position: -733px -2116px;
+}
+
+.bxbtns {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 53px auto 0;
+}
+
+.bxbtns a {
+	display: block;
+	width: 372px;
+	height: 96px;
+	position: relative;
+}
+
+.btnbuy1 {
+	background-position: -83px -1683px;
+}
+
+.btnbuy2 {
+	background-position: -498px -1683px;
+}
+
+.btnbuy3 {
+	background-position: -913px -1683px;
+}
+
+.btnbuy1.on {
+	background-position: -113px -2264px;
+}
+
+.btnbuy2.on {
+	background-position: -528px -2264px;
+}
+
+.btnbuy3.on {
+	background-position: -943px -2264px;
+}
+
+.boxlottery {
+	width: 1220px;
+	margin: 32px 0 0 -10px;
+	position: relative;
+}
+
+.btndjqjl {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	line-height: 1;
+	left: 0;
+	top: 251px;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: underline #d2a442;
+	font-weight: bold;
+}
+
+.listlot {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.listlot li {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bglot1.png) no-repeat;
+	width: 224px;
+	height: 157px;
+	position: relative;
+	margin: 0 10px 32px;
+}
+
+.listlot li.on {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bglot2.png) no-repeat;
+}
+
+.listlot li img {
+	display: block;
+	width: 100%;
+}
+
+.listlot li:nth-child(6) {
+	margin-right: 742px;
+}
+
+.listlot li:nth-child(8) {
+	margin-right: 742px;
+}
+
+.djname {
+	font-size: 16px;
+	color: #dc0016;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 125px;
+}
+
+.listlot li.on .djname {
+	color: #840903;
+}
+
+.redbq1 {
+	background-position: -41px -1809px;
+	width: 76px;
+	height: 23px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+	text-align: center;
+	position: absolute;
+	top: -2px;
+	left: 0;
+}
+
+.redbq2 {
+	background-position: -154px -1808px;
+	width: 112px;
+	height: 23px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+	text-align: center;
+	position: absolute;
+	top: -2px;
+	right: 0;
+}
+
+.redbq3 {
+	background-position: -41px -1809px;
+	width: 76px;
+	height: 23px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+	text-align: center;
+	position: absolute;
+	top: -2px;
+	right: 0;
+}
+
+.lottxt2 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	line-height: 1;
+	left: 0;
+	top: 327px;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.btnlottwo {
+	width: 689px;
+	position: absolute;
+	left: 50%;
+	margin-left: -344px;
+	top: 387px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.btnlottwo a {
+	display: block;
+	width: 338px;
+	height: 93px;
+}
+
+.btnlot1 {
+	background-position: -410px -1833px;
+}
+
+.btnlot2 {
+	background-position: -761px -1833px;
+}
+
+.boxzcmd {
+	width: 1200px;
+	margin: 26px auto 0;
+}
+
+.boxzcmdin {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.boxzcmdin_lf {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/boxzcmdin_lf.png) no-repeat;
+	width: 610px;
+	height: 300px;
+	box-sizing: border-box;
+	padding-top: 33px;
+	position: relative;
+}
+
+.tita {
+	background-position: -32px -1869px;
+	width: 279px;
+	height: 39px;
+	margin: 0 0 0 151px;
+}
+
+.lottxt3 {
+	font-size: 18px;
+	color: #840903;
+	line-height: 26px;
+	width: 338px;
+	text-align: center;
+	margin: 12px 0 0 231px;
+}
+
+.zcx {
+	display: block;
+	width: 210px;
+	position: absolute;
+	top: 94px;
+	left: 11px;
+}
+
+.btnzcx {
+	display: block;
+	background-position: -445px -1967px;
+	width: 338px;
+	height: 84px;
+	margin: 47px 0 0 231px;
+	text-indent: -999em;
+}
+
+.boxzcmdin_rig {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/boxzcmdin_rig.png) no-repeat;
+	width: 613px;
+	height: 300px;
+	box-sizing: border-box;
+	padding-top: 33px;
+	padding-left: 103px;
+	margin-left: -23px;
+}
+
+.titb {
+	background-position: -52px -1973px;
+	width: 328px;
+	height: 39px;
+	margin: 0 auto;
+}
+
+.bgbxhjmd {
+	width: 466px;
+	height: 175px;
+	box-sizing: border-box;
+	margin: 23px auto 0;
+}
+
+.listhjmd {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.listhjmd li {
+	width: 100%;
+	font-size: 16px;
+	color: #840903;
+	line-height: 1.3;
+	text-align: center;
+	height: 44px;
+}
+
+.bxhjmd {
+	width: 100%;
+	height: 175px;
+	overflow: hidden;
+}
+
+
+/*新春幸运抽*/
+
+
+/*积分兑换*/
+
+.box4 {
+	margin-top: 75px;
+}
+
+.tit4 {
+	background-position: -257px -262px;
+	width: 607px;
+	height: 165px;
+	margin: 0 auto;
+}
+
+.myjftxt {
+	width: 100%;
+	text-align: right;
+	font-size: 18px;
+	color: #fde891;
+	line-height: 1;
+	margin-top: 7px;
+}
+
+.listdh {
+	width: 1220px;
+	margin: 22px 0 0 -10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.listdh li {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bglot1.png) no-repeat;
+	width: 224px;
+	height: 233px;
+	position: relative;
+	margin: 0 10px 38px;
+}
+
+.listdh li.on {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bglot2.png) no-repeat;
+}
+
+.listdh li.on .djname {
+	color: #840903;
+}
+
+.listdh li img {
+	display: block;
+}
+
+.btndh {
+	background-position: -74px -2416px;
+	width: 208px;
+	height: 53px;
+	margin: 19px auto 0;
+	display: block;
+	font-size: 24px;
+	color: #fffdee;
+	line-height: 54px;
+	text-align: center;
+	font-family: 'font';
+}
+
+.btndh.gray {
+	background-position: -359px -2423px;
+	text-indent: -999em;
+}
+
+
+/*积分兑换*/
+
+
+/*宅家赚积分*/
+
+.box1 {
+	margin-top: 47px;
+}
+
+.tit1 {
+	background-position: -258px -536px;
+	width: 607px;
+	height: 165px;
+	margin: 0 auto;
+}
+
+.tittxtdn {
+	font-size: 20px;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.boxjz {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bgjz.png) no-repeat;
+	width: 1216px;
+	height: 617px;
+	margin: 17px 0 0 -8px;
+	box-sizing: border-box;
+	padding-top: 36px;
+}
+
+.boxjzmid {
+	width: 1122px;
+	margin: 0 auto;
+}
+
+.tabjz {
+	width: 100%;
+}
+
+.tabjz thead tr th {
+	font-size: 40px;
+	color: #d2160a;
+	line-height: 1;
+	text-align: center;
+	height: 86px;
+	font-family: 'font';
+	border-right: 2px solid #eb9c67;
+}
+
+.tabjz thead tr th:nth-child(1) {
+	width: 422px;
+}
+
+.tabjz thead tr th:nth-child(2) {
+	width: 238px;
+}
+
+.tabjz thead tr th:nth-child(3) {
+	width: 238px;
+}
+
+.tabjz thead tr th:nth-child(4) {
+	width: 218px;
+	border-right: none;
+}
+
+.tabjz tbody tr td {
+	font-size: 16px;
+	color: #d51f0d;
+	line-height: 1.3;
+	text-align: center;
+	height: 76px;
+	border-right: 2px solid #eb9c67;
+}
+
+.tabjz tbody tr td:nth-child(4) {
+	border-right: none;
+}
+
+.tabjz tbody tr:nth-child(odd) td {
+	background-color: #ffe0ac;
+}
+
+.btntabget {
+	background-position: -644px -2424px;
+	width: 191px;
+	height: 48px;
+	display: block;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.btntabget.gray {
+	background-position: -895px -2424px;
+}
+
+.boxshare {
+	width: 1200px;
+	margin-top: 26px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.boxshare_lf {
+	width: 169px;
+}
+
+.bxcode {
+	width: 169px;
+	height: 169px;
+	background-color: #FFFFFF;
+}
+
+.bxcode img {
+	display: block;
+	width: 169px;
+}
+
+.codetxt {
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.codetxt span {
+	font-size: 20px;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	display: block;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.codetxt em {
+	font-size: 16px;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-top: 7px;
+	background-image: -webkit-linear-gradient(top, #ffeec3, #d7b36c, #d2a442);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.boxshare_rig {
+	width: 1009px;
+	padding-top: 22px;
+}
+
+.bxshrittop {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.btnshrafx {
+	background-position: -47px -2540px;
+	width: 310px;
+	height: 77px;
+	display: block;
+	font-size: 32px;
+	color: #d2160a;
+	line-height: 78px;
+	text-align: center;
+	font-family: 'font';
+}
+
+.bxshritdn {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 32px;
+}
+
+.bxshritdn input {
+	width: 732px;
+	height: 72px;
+	display: block;
+	background-color: #ffd998;
+	font-size: 32px;
+	line-height: 72px;
+	border: none;
+	color: #d2160a;
+	text-align: center;
+}
+
+.btncoptfx {
+	background-position: -423px -2547px;
+	width: 259px;
+	height: 65px;
+	display: block;
+	font-size: 32px;
+	color: #d2160a;
+	line-height: 66px;
+	text-align: center;
+	font-family: 'font';
+}
+
+
+/*宅家赚积分*/
+
+
+/*我有话说*/
+
+.box5 {
+	margin-top: 48px;
+}
+
+.tit5 {
+	background-position: -257px -764px;
+	width: 607px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.boxfk {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/bgwj.png) no-repeat;
+	width: 1216px;
+	height: 437px;
+	margin: 38px 0 0 -8px;
+	padding: 36px 47px 0 533px;
+	box-sizing: border-box;
+}
+
+.textwnq1 {
+	font-size: 18px;
+	color: #840903;
+	line-height: 30px;
+	width: 100%;
+	padding-top: 72px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.textwnq2 {
+	font-size: 18px;
+	color: #840903;
+	line-height: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.bxbtneq {
+	width: 98%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 37px auto 0;
+}
+
+.btnwq1 {
+	background-position: -729px -2544px;
+	width: 304px;
+	height: 84px;
+	display: block;
+}
+
+.btnwq2 {
+	background-position: -1053px -2544px;
+	width: 304px;
+	height: 85px;
+	display: block;
+}
+
+.btnwq2.gray {
+	background-position: -32px -2686px;
+}
+
+
+/*我有话说*/
+
+
+/*立即前往以下活动*/
+
+.box2 {
+	margin-top: 50px;
+}
+
+.tit2 {
+	background-position: -182px -1001px;
+	width: 841px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.listact {
+	width: 1272px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 52px 0 0 -36px;
+}
+
+.listact li {
+	width: 551px;
+	margin: 0 36px 38px;
+}
+
+.titact {
+	width: 150%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: -25%;
+}
+
+.titactlf {
+	background-position: -458px -2682px;
+	width: 137px;
+	height: 16px;
+	display: block;
+	margin-top: 14px;
+}
+
+.titactrig {
+	background-position: -812px -2682px;
+	width: 137px;
+	height: 16px;
+	display: block;
+	margin-top: 14px;
+}
+
+.titacttxt {
+	font-size: 46px;
+	line-height: 1;
+	margin: 0 18px;
+	font-family: 'font';
+	background-image: -webkit-linear-gradient(top, #ffedc0, #f7d885, #efc44c);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.listact li img {
+	display: block;
+	width: 100%;
+	margin: 21px auto 0;
+}
+
+.btnactgo {
+	background-position: -35px -2826px;
+	width: 458px;
+	height: 113px;
+	margin: 10px auto 0;
+}
+
+
+/*立即前往以下活动*/
+
+
+/*活动规则*/
+
+.box6 {
+	margin-top: 50px;
+	position: relative;
+}
+
+.tit6 {
+	background-position: -297px -1252px;
+	width: 527px;
+	height: 165px;
+	margin: 0 auto;
+}
+
+.listrule {
+	width: 1190px;
+	margin: 20px auto 0;
+}
+
+.listrule li {
+	width: 100%;
+	float: left;
+	margin-bottom: 6px;
+}
+
+.listrule li strong {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/ruleicon.png) no-repeat;
+	width: 30px;
+	height: 31px;
+	float: left;
+}
+
+.listrule li p {
+	font-size: 18px;
+	line-height: 26px;
+	color: #feebb9;
+	padding-left: 50px;
+}
+
+.listrule li p span {
+	color: #ffe8a3;
+}
+
+.listrule li p a {
+	color: #fff600;
+	text-decoration: underline;
+}
+
+.listrule li p a:hover {
+	text-decoration: underline;
+}
+
+
+/*活动规则*/
+
+
+/*联系客服*/
+
+.btnkfbx {
+	width: 244px;
+	height: 152px;
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 400px;
+	z-index: 9999;
+}
+
+.btnkf {
+	width: 244px;
+	height: 152px;
+	display: block;
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/kf.png) no-repeat;
+}
+
+.kfclosevid {
+	top: -30px;
+	right: 0;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/closed.png) no-repeat;
+	width: 35px;
+	height: 27px;
+}
+
+.btnkfbx.on {
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+/*联系客服*/
+
+
+/*弹窗*/
+
+.popsp {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popsp.png) no-repeat;
+}
+
+.pop {
+	position: relative;
+	display: none;
+}
+
+.pop1 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg1.png) no-repeat;
+	width: 1000px;
+	height: 753px;
+}
+
+.iframe1 {
+	width: 780px;
+	height: 763px;
+	display: block;
+	border: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	;
+	transform: translate(-50%, -50%) scale(0.9);
+	transform-origin: 50% 50%;
+}
+
+.dia-close {
+	background-position: -600px -301px;
+	width: 35px;
+	height: 26px;
+	top: -21px;
+	right: 0;
+	display: block;
+	position: absolute;
+}
+
+.pop2 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg2.png) no-repeat;
+	width: 718px;
+	height: 627px;
+	box-sizing: border-box;
+	padding-top: 49px;
+}
+
+.poptit2 {
+	background-position: -65px -26px;
+	width: 345px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.table_con {
+	width: 611px;
+	margin: 22px auto 0;
+}
+
+.poptable1 {
+	width: 100%;
+}
+
+.poptable1 thead tr th {
+	height: 35px;
+	background-color: #cf4b1b;
+	border: 1px solid #df8767;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1;
+	text-align: center;
+}
+
+.poptable1 thead tr th:first-child {
+	border-left: 1px solid #de8261;
+}
+
+.poptable1 thead tr th:last-child {
+	border-right: 1px solid #de8261;
+}
+
+.poptable1 thead tr th:nth-child(1) {
+	width: 222px;
+}
+
+.poptable1 thead tr th:nth-child(2) {
+	width: 130px;
+}
+
+.poptable1 thead tr th:nth-child(3) {
+	width: 265px;
+}
+
+.poptable1 tbody tr td {
+	height: 32px;
+	background-color: #f59a5c;
+	border: 1px solid #f8b88d;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1;
+	text-align: center;
+	border-top: none;
+}
+
+.poptable1 tbody tr td:first-child {
+	border-left: 1px solid #f8b88d;
+}
+
+.poptable1 tbody tr td:last-child {
+	border-right: 1px solid #f8b88d;
+}
+
+.pop_tit_zc {
+	background-position: -48px -291px;
+	width: 134px;
+	height: 44px;
+	margin: 0 auto;
+}
+
+.pop_tit_wqfj {
+	background-position: -309px -291px;
+	width: 227px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.dia-con-1 {
+	width: 636px;
+	margin: 0 auto;
+}
+
+.dia-con-a {
+	width: 325px;
+	float: left;
+}
+
+.dia-con-b {
+	width: 306px;
+	float: right;
+}
+
+.bgtable1 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.poptable2 {
+	width: 100%;
+}
+
+.poptable2 thead tr th {
+	height: 36px;
+	background-color: #cf4b1b;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 1;
+	text-align: center;
+	border-bottom: 1px solid #da7551;
+	
+}
+
+.poptable2 thead tr th:nth-child(2) {
+	border-right: 1px solid #f7ae7d;
+	border-left: 1px solid #f7ae7d;
+	width: 85px;
+}
+
+.poptable2 thead tr th:nth-child(3) {
+	width: 85px;
+}
+.poptable2 tbody tr td {
+	height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 1;
+	text-align: center;
+	border-bottom: 1px solid #f7ae7d;
+	background-color: #f59a5c;
+}
+
+.poptable2 tbody tr td:nth-child(2) {
+	border-right: 1px solid #f7ae7d;
+	border-left: 1px solid #f7ae7d;
+	
+}
+.poptable3 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.poptable3 h4 {
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #1d2337;
+}
+
+.poptable3 h4 span {
+	display: block;
+	height: 100%;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	line-height: 1;
+	background-color: #cf4b1b;
+}
+
+.poptable3 h4 span:first-child {
+	width: 78%;
+}
+
+.poptable3 h4 span:last-child {
+	width: 22%;
+}
+
+.table_con2 {
+	width: 100%;
+	height: 310px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.table_con2 p {
+	font-size: 20px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #f7ae7d;
+}
+
+.table_con2 p span:first-child {
+	width: 78%;
+}
+
+.table_con2 p span:last-child {
+	width: 22%;
+}
+
+.table_con2 p span {
+	text-align: center;
+	height: 48px;
+	line-height: 1.1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table_con2 p:nth-child(odd) span {
+	background-color: #f59a5c;
+}
+
+.table_con2 p:nth-child(even) span {
+	background-color: #f59a5c;
+}
+
+.table_con2::-webkit-scrollbar-track-piece {
+	background-color: #c9d3df;
+}
+
+.table_con2::-webkit-scrollbar {
+	width: 2px;
+}
+
+.table_con2::-webkit-scrollbar-thumb {
+	background: #ef2551;
+	border-radius: 10px
+}
+
+.poptxttip1 {
+	font-size: 20px;
+	color: #212020;
+	line-height: 1.5;
+	width: 558px;
+	margin: 15px auto 0;
+	text-align: center;
+}
+
+.pop3 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg3.png) no-repeat;
+	width: 578px;
+	height: 737px;
+	box-sizing: border-box;
+	padding-top: 63px;
+}
+
+.pop_tit4 {
+	background-position: -77px -95px;
+	width: 345px;
+	height: 43px;
+	margin: 0 auto;
+}
+
+.p_tips {
+	font-size: 20px;
+	color: #212020;
+	line-height: 1;
+	width: 80%;
+	text-align: center;
+	margin: 20px auto 0;
+	line-height: 1.2;
+}
+
+.zj_info {
+	width: 80%;
+	margin: 12px auto 0;
+}
+
+.zj_info p {
+	width: 100%;
+	height: 34px;
+	border-top: 1px solid #f7ae7d;
+	font-size: 20px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #f7b074;
+}
+
+.zj_info p:last-child {
+	border-bottom: 1px solid #f7ae7d;
+}
+
+.poplottxt {
+	width: 80%;
+	font-size: 20px;
+	color: #212020;
+	line-height: 24px;
+	margin: 16px auto 0;
+	text-align: center;
+}
+
+.pop4 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg4.png) no-repeat;
+	width: 578px;
+	height: 397px;
+	box-sizing: border-box;
+	padding-top: 63px;
+}
+
+.pop5 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg5.png) no-repeat;
+	width: 718px;
+	height: 796px;
+	box-sizing: border-box;
+	padding-top: 48px;
+}
+
+.poptitgl {
+	background-position: -77px -170px;
+	width: 345px;
+	height: 44px;
+	margin: 0 auto;
+}
+
+.popgltable {
+	width: 614px;
+	margin: 11px auto 0;
+}
+
+.tablegail {
+	width: 100%;
+}
+
+.tablegail tr th {
+	height: 36px;
+	color: #ffffff;
+	line-height: 1;
+	text-align: center;
+	background-color: #cf4b1b;
+	font-size: 22px;
+}
+
+.tablegail tr th:first-child {
+	width: 70%;
+	border-right: 1px solid #FFFFFF;
+}
+
+.tablegail tr th:last-child {
+	width: 30%;
+}
+
+.tablegail tr td {
+	height: 33px;
+	color: #ffffff;
+	line-height: 1;
+	text-align: center;
+	font-size: 20px;
+	border-top: 1px solid #FFFFFF;
+}
+
+.tablegail tbody tr:nth-child(odd) td {
+	background-color: #f9cb93;
+}
+
+.tablegail tbody tr:nth-child(even) td {
+	background-color: #f59a5c;
+}
+
+.tablegail tbody tr td:first-child {
+	border-right: 1px solid #FFFFFF;
+}
+
+.pop6 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg6.png) no-repeat;
+	width: 578px;
+	height: 257px;
+	box-sizing: border-box;
+	padding-top: 36px;
+}
+
+.poptxtwh {
+	height: 181px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	line-height: 1.5;
+	color: #212020;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.pop7 {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbg7.png) no-repeat;
+	width: 718px;
+	height: 757px;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
+
+.poptitfank {
+	background-position: -83px -231px;
+	width: 345px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.popbxfk {
+	width: 618px;
+	margin: 22px auto 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 455px;
+}
+
+.popbxfk::-webkit-scrollbar-track-piece {
+	background-color: #ffffff;
+	border-radius: 10px
+}
+
+.popbxfk::-webkit-scrollbar {
+	width: 6px;
+}
+
+.popbxfk::-webkit-scrollbar-thumb {
+	background: #d25626;
+	border-radius: 10px
+}
+
+.popkistfk {
+	width: 100%;
+}
+
+.popfkli {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.popfknum {
+	font-size: 20px;
+	color: #000000;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popbgnum.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	text-align: center;
+}
+
+.popfkrig {
+	padding-left: 35px;
+}
+
+.popfktxt1 {
+	font-size: 18px;
+	color: #212020;
+	line-height: 1;
+	margin-top: 7px;
+}
+
+.popjdbg {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popjundu.png) no-repeat;
+	width: 476px;
+	height: 17px;
+	margin: 17px 0 0 22px;
+	padding: 2px 0 0 1px;
+	box-sizing: border-box;
+}
+
+.popjdin {
+	width: 471px;
+	height: 13px;
+	border-radius: 10px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.popjdout {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popjunduin.png) no-repeat;
+	width: 0%;
+	height: 13px;
+	display: block;
+}
+
+.popfkpingf {
+	width: 476px;
+	margin: 10px 0 0 26px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.poppfli {
+	width: 36px;
+	display: block;
+	margin-right: 74px;
+}
+
+.popfkpingf a:last-child {
+	margin-right: 0;
+}
+
+.poppfstar {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popdian.png) no-repeat;
+	width: 21px;
+	height: 18px;
+	display: block;
+	margin: 12px 3px 0 0;
+}
+
+.popfkpingfjd .poppfstar {
+	margin: 0 auto;
+}
+
+.poppftxt {
+	font-size: 18px;
+	color: #212020;
+	line-height: 1;
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.poppfli.on .poppfstar {
+	background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/popdiancurr.png) no-repeat;
+}
+
+.popxuanze {
+	width: 100%;
+	margin-top: 1px;
+}
+
+.popxuanze a {
+	width: 93px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-right: 0;
+}
+
+.popxuanze a .poppftxt {
+	width: auto;
+	line-height: 33px;
+}
+
+.popxuanze-1 {
+	width: 100%;
+	margin-top: 1px;
+}
+
+.popxuanze-1 a {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-right: 0;
+}
+
+.popxuanze-1 a .poppftxt {
+	width: 250px;
+	line-height: 33px;
+	color: #752727;
+}
+
+.popxuanze-2 a:last-child {
+	width: 100%;
+	position: relative;
+}
+
+.popinut {
+	width: 302px;
+	height: 30px;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	background-color: #fb8768;
+	border: none;
+	border-radius: 7px;
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 18px;
+	position: absolute;
+	top: 8px;
+	left: 70px;
+}
+
+.popinut::placeholder {
+	color: #FFFFFF;
+}
+
+.popwrite {
+	width: 510px;
+	height: 120px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin-top: 18px;
+	background-color: #fb8768;
+	border: none;
+	border-radius: 7px;
+}
+
+.popwrite textarea {
+	width: 90%;
+	height: 100px;
+	background-color: transparent;
+	font-size: 18px;
+	color: #FFFFFF;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	resize: none;
+	line-height: 1.5;
+}
+
+.popbtnsut {
+	background-position: -25px -365px;
+	width: 304px;
+	height: 85px;
+	display: block;
+	margin: 30px auto 0;
+}
+
+.page {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #f59a5c;
+	height: 32px;
+}
+
+.page span {
+	margin: 0 5px;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 32px;
+}
+
+.page span a {
+	color: #FFFFFF;
+}
+
+.page_box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #f59a5c;
+	height: 32px;
+}
+
+.page_box span {
+	margin: 0 5px;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 32px;
+}
+
+.page_box span a {
+	color: #FFFFFF;
+}
+
+/*弹窗*/
+/*0204*/
+.tittxtdn0204{text-align: right;}
+
+
+/*0206*/
+.box0206{width: 96%;display: flex;justify-content: space-between;flex-wrap: wrap;margin: 20px auto 0;}
+.box0206_lf{width: 310px;}
+.txt0206_a{
+
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1;
+	
+}
+.txt0206_a em{
+	display: block;
+	background-image: -webkit-linear-gradient(top, #feebb9, #feebb9, #feebb9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.txt0206_a span{
+	display: block;
+	background-image: -webkit-linear-gradient(top, #feebb9, #feebb9, #feebb9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.btncopy0206{
+	background-position: -47px -2540px;
+	width: 310px;
+	height: 77px;
+	display: block;
+	font-size: 32px;
+	color: #d2160a;
+	line-height: 78px;
+	text-align: center;
+	font-family: 'font';
+	letter-spacing: 2px;
+	margin: 8px auto 0;
+}
+.txt0206_b{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1;
+	margin: 8px auto 0;
+	background-image: -webkit-linear-gradient(top, #feebb9, #feebb9, #feebb9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box0206_rig{width: 710px;text-align: left;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 60px 0 0 0;
+	}
+.box0206_rig span{
+	background-image: -webkit-linear-gradient(top, #feebb9, #feebb9, #feebb9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.box0206_rig span b{
+	background-image: -webkit-linear-gradient(top, #fff600, #fff600, #fff600);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+.boxdown0206{background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/0206-pic1.png) no-repeat;width: 1216px;height: 283px;background-size: 100% 100%;
+				margin: 20px 0 0 -8px;box-sizing: border-box;padding-top: 40px;}
+.tita0206{font-size: 40px;color: #D2160A;line-height: 1;width: 100%;text-align: center;font-family: 'font';margin-bottom: 15px;}
+
+
+
+
+.boxdown0206 .tabjz thead tr th{border-top: 1px solid #eb9c67;}
+.btnchkyqhy{background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/0206-pic2.png) no-repeat;
+	width: 458px;
+	height: 113px;
+	display: block;
+	font-size: 40px;
+	color: #d2160a;
+	line-height: 114px;
+	text-align: center;
+	font-family: 'font';
+	letter-spacing: 2px;
+	margin: 8px auto 0;}
+.poptit0206{background: url(//game.gtimg.cn/images/actdaoju/act/a20240110dragon/0206-pic3.png) no-repeat;width: 423px;height: 44px;margin: 0 auto;}
+.inp0206{width: 100%;height: 26px;display: block;border: none;background-color: #ffe0ac;display: block;margin: 5px auto 0;text-align: center;
+			font-size: 18px;line-height: 26px;color: #D2160A;}
+.inp0206::placeholder{color: #D2160A;}
+.boxdown0206 .tabjz thead tr th{border-right: none;}
+.boxdown0206 .tabjz tbody tr td{border-right: none;}
+
+.boxjz .tips{
+	position: absolute;
+    margin-top: 18px;
+    margin-left: 51px;
+    color: #fff600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
